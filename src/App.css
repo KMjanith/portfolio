@@ -1,0 +1,9 @@
+/* App.css */
+.video-container {
+    margin-top: 20px; /* Add some space between the navbar and video */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
