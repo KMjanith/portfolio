@@ -12,6 +12,8 @@ function App() {
 
   return (
     <>
+      <div class="quarter-circle-1"></div>
+      <div class="quarter-circle-2"></div>
       <Navbar selectedItem={clickedItem} setSelectedItem={handleItemClick} />
       <Hero />
     </>

@@ -3,25 +3,17 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    
     <div className='hero'>
       <div className='heroLeft'>
-        <div className='heroLeftTitle'>
-          <span className='heroLeftTitleHi'>Hi, my name is</span>
-          <span className='heroLeftTitleName'>Kavindu Janith</span>
-          <span className='heroLeftTitleDesc'>I build things for the web</span>
-        </div>
-        <div className='heroLeftDesc'>
-          I'm a software engineer based in Sri Lanka specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
-        </div>
-        <div className='heroLeftButton'>
-          <a href='#projects'>
-            <button>See my work</button>
-          </a>
-        </div>
+        <h1>Hi! I'm</h1>
+        <span>Kavindu Janith</span>
+        <br />
+        <br />
+        <h2><span className='software'>Software</span> <span className='engineer'>Engineer</span></h2>
+        <p>As a driven software engineer, I specialize in mobile app development using Flutter and Dart, crafting engaging experiences for Android users. My expertise extends to microservices and distributed systems, ensuring scalable and resilient solutions. Currently, I am enhancing my skills in web development with React, Node.js, and Spring Boot, while embracing DevOps practices.</p>
       </div>
       <div className='heroRight'>
-        <img src='assets/hero.png' alt='hero' className='heroRightImg' />
+        <img src="public/assets/Leonardo_Phoenix_A_stunningly_surreal_and_vibrantly_cinematic_3.jpg" alt="image" />
       </div>
     </div>
   )

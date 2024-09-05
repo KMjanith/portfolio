@@ -7,3 +7,25 @@
   }
   
   
+  .quarter-circle-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 300px;
+    border-radius: 0 0 0 300px;
+    z-index: -1;
+    background: rgba(0, 202, 101, 0.404); /* Adjust color and opacity as needed */
+  }
+
+   
+  .quarter-circle-2 {
+    position: absolute;
+    top: 270px;
+    right: 0;
+    width: 60px;
+    height: 120px;
+    border-radius: 300px 0 0 300px;
+    z-index: -1;  
+    background: rgb(143, 219, 233); /* Adjust color and opacity as needed */
+  }
