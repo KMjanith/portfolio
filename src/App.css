@@ -29,3 +29,13 @@
     z-index: -1;  
     background: rgb(143, 219, 233); /* Adjust color and opacity as needed */
   }
+
+.devider{
+  width: 50%;
+  height: 2px;
+  background-color: rgb(179, 179, 179);
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}

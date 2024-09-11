@@ -1,0 +1,65 @@
+.projectCard{
+    border: solid 1px #e0e0e0;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+    justify-content: center;
+    perspective: 1000px;
+    
+}
+
+.projectCard:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -10px;
+    transition: 0.1s;
+    background-color: #fcffff;
+   
+
+}
+
+.projectCard img{   
+    width: 90%; 
+    padding: 20px;
+}
+
+h2{
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: sans-serif
+}
+
+h3{
+    margin: 15px;
+    font-size: 1.2rem;
+    font-family: sans-serif
+}
+
+.moreBtn{
+    height: 50px;
+    width: 100px;
+    border: none;
+    padding: 15px ;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(205, 247, 247);
+    animation: backwards;
+    animation-duration: 1s;
+    animation-name: colorChange;
+    animation-iteration-count: infinite;  
+}
+
+.moreBtn:hover{
+    background-color: rgb(104, 212, 255);
+    color: white;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    transform: rotateY(360deg);
+    transition: transform 01s;
+
+}

@@ -35,14 +35,14 @@ const Navbar = ({ selectedItem, setSelectedItem }) => {
         >
           Blog
         </a>
-        <a
+        {/* <a
           className={
             selectedItem === "interest" ? "navbarItem active" : "navbarItem"
           }
           onClick={() => setSelectedItem("interest")}
         >
           Interest
-        </a>
+        </a> */}
         <a
           className={
             selectedItem === "contact" ? "navbarItem active" : "navbarItem"
